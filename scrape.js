@@ -41,5 +41,5 @@ let scrape = async () => {
 }
 
 scrape().then((value) => {
-  console.log(value.length);
+  console.log(value);
 });
